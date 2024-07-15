@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lamg="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="inputs">
+            <form id="form1">
+                <!-- <label for="idInstance"></label><br> -->
+                <input type="text" id="idInstance" name="idInstance" class="inp" placeholder="Id Instance"><br>
+                <!-- <label for="ApiTokenInstance"></label><br> -->
+                <input type="text" id="ApiTokenInstance" name="ApiTokenInstance" class="inp"
+                    placeholder="Api Token Instance"><br>
+                <button id="getSettings">getSettings</button> <br>
+                <button id="getStateInstance">getStateInstance</button><br><br>
+            </form>
+            <br>
+            <form id="form2">
+                <!-- <label for="telephoneNumber"></label><br> -->
+                <input type="text" id="telephoneNumber" name="telephoneNumber" class="inp"
+                    placeholder="Telephone Number"><br>
+                <input type="text" id="message" name="message" class="inp" placeholder="Message"><br>
+                <button id="sendMessage">sendMessage</button><br><br>
+            </form>
+            <br>
+            <form id="form3">
+                <!-- <label for="idInstance"></label><br> -->
+                <input type="text" id="telephoneNumber" name="telephoneNumber" class="inp"
+                    placeholder="Telephone Number"><br>
+                <!-- <label for="fileName"></label><br> -->
+                <input type="text" id="fileName" name="fileName" class="inp" placeholder="File Name"><br>
+                <input type="text" id="fileUrl" name="fileUrl" class="inp" placeholder="File Url"><br>
+                <button id="sendFileByUrl">sendFileByUrl</button><br><br>
+            </form>
+        </div>
+
+        <div id="answer">
+            <!-- <h1>Answer:</h1> -->
+            <div id="answerText"></div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
